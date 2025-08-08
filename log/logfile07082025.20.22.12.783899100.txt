@@ -1,0 +1,10 @@
+2025/08/07 20:22:12 Connected succesfullly
+2025/08/07 20:22:24 UploadAudio(+)
+2025/08/07 20:22:24 Error:PVA01 Missing required metadata
+2025/08/07 20:22:24 UploadAudio(-)
+2025/08/07 20:22:27 UploadAudio(+)
+2025/08/07 20:22:27 Error:PVA01 Missing required metadata
+2025/08/07 20:22:27 UploadAudio(-)
+2025/08/07 20:23:23 UploadAudio(+)
+2025/08/07 20:23:23 Error:PVA01 Missing required metadata
+2025/08/07 20:23:23 UploadAudio(-)

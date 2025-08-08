@@ -1,0 +1,11 @@
+2025/08/07 19:30:37 Connected succesfullly
+2025/08/07 20:18:37 UploadAudio(+)
+2025/08/07 20:18:37 Error:HUA01 request Content-Type isn't multipart/form-data
+2025/08/07 20:18:39 UploadAudio(+)
+2025/08/07 20:18:39 Error:HUA01 request Content-Type isn't multipart/form-data
+2025/08/07 20:18:50 UploadAudio(+)
+2025/08/07 20:18:50 Error:PVA01 Missing required metadata
+2025/08/07 20:18:50 UploadAudio(-)
+2025/08/07 20:18:53 UploadAudio(+)
+2025/08/07 20:18:53 Error:PVA01 Missing required metadata
+2025/08/07 20:18:53 UploadAudio(-)

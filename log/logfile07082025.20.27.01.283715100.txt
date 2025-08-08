@@ -1,0 +1,15 @@
+2025/08/07 20:27:01 Connected succesfullly
+2025/08/07 20:27:10 UploadAudio(+)
+2025/08/07 20:27:10 Error:PVA01 Missing required metadata
+2025/08/07 20:27:10 UploadAudio(-)
+2025/08/07 20:27:13 UploadAudio(+)
+2025/08/07 20:27:13 Error:PVA01 Missing required metadata
+2025/08/07 20:27:13 UploadAudio(-)
+2025/08/07 20:27:40 GetUserChunksdata(+)
+2025/08/07 20:27:40 GetUserChunksdata(-)
+2025/08/07 20:28:06 GetUserChunksdata(+)
+2025/08/07 20:28:06 GetUserChunksdata(-)
+2025/08/07 20:30:09 GetChunkMetadata(+)
+2025/08/07 20:30:09 GetChunkMetadata(-)
+2025/08/07 20:30:30 UploadAudio(+)
+2025/08/07 20:30:30 UploadAudio(-)
