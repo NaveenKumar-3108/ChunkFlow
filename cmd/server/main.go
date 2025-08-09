@@ -2,6 +2,7 @@ package main
 
 import (
 	"CHUNKFLOW/internal/db"
+	"CHUNKFLOW/processors"
 	router "CHUNKFLOW/routes"
 	"log"
 	"net/http"
@@ -19,6 +20,7 @@ func main() {
 	defer f.Close()
 	db.Init()
 	defer db.GDB.Close()
+	processors.StartWorkerPool(5)
 	Router := router.SetupRoutes()
 	log.Fatal(http.ListenAndServe(":8080", Router))
 

@@ -140,3 +140,39 @@ Host: localhost:8080
         }
 
 ```
+## Sample Socket Requests 
+
+**Sample Request** 
+
+1.Sent as a TextMessage frame
+{
+    "user_id": "12345",
+    "session_id": "abc-session",
+    "timestamp": "2025-08-07T10:30:00Z",
+    "file_name": "sample.mp3"
+}
+2.Sent as a BinaryMessage frame.
+Binary audio data (e.g. .mp3 or .wav)
+
+**Sample Response**  (Success)
+{
+    "Data": {
+        "chunkid": "",
+        "user_id": "dhd\u0002",
+        "session_id": "sess-001",
+        "timestamp": "2025-08-08T12:00:00Z",
+        "file_name": "sample2.mp3",
+        "content_type": "application/octet-stream",
+        "duration": "0.00",
+        "transcript": "Welcome ",
+        "checksum": "2af1519246104ca45f9d59b78a6d5e2662ed64213feae5ea423a8747645470f6",
+        "size": "85293"
+    },
+    "ChunkID": 62
+}
+**Sample Response**  (Error)
+{
+    "status": "not_ok",
+    "msg": "Missing required metadata"
+}
+
